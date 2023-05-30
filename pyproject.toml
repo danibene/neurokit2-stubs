@@ -48,6 +48,7 @@ pyreadline = {version = "^2.1", optional = true}
 mike = { version="^1.1.2", optional=true}
 numpy = "^1.24.3"
 neurokit2 = "^0.2.4"
+neurokit2-stubs = {version = "0.1.0", path = "neurokit2_stubs"}
 
 [tool.poetry.extras]
 test = [
