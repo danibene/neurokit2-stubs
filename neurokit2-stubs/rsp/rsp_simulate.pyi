@@ -1,4 +1,4 @@
-from typing import Optional, Union, List
+from typing import Optional, Union
 
 import numpy as np
 
