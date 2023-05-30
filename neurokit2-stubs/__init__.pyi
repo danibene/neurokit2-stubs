@@ -17,3 +17,7 @@ from neurokit2.rsp import (
 from neurokit2.signal import (
     signal_resample as signal_resample,
 )
+
+from .ecg import *
+from .rsp import *
+from .signal import *
