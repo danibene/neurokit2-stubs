@@ -1,8 +1,8 @@
 [tool]
 [tool.poetry]
-name = "neurokit2_stubs"
+name = "neurokit2-stubs"
 version = "0.1.0"
-homepage = "https://github.com/danibene/neurokit2_stubs"
+homepage = "https://github.com/danibene/neurokit2-stubs"
 description = "Public type stubs for neurokit2."
 authors = ["Danielle Benesch"]
 readme = "README.md"
@@ -18,7 +18,7 @@ classifiers=[
     'Programming Language :: Python :: 3.10',
 ]
 packages = [
-    { include = "neurokit2_stubs" },
+    { include = "neurokit2-stubs" },
     { include = "tests", format = "sdist" },
 ]
 
