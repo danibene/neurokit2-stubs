@@ -5,6 +5,10 @@ from neurokit2 import (
     signal as signal,
 )
 
+from .ecg import *
+from .rsp import *
+from .signal import *
+
 __all__ = [
     "ecg",
     "rsp",
