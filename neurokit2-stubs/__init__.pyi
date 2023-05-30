@@ -4,3 +4,9 @@ from neurokit2 import (
     rsp as rsp,
     signal as signal,
 )
+
+__all__ = [
+    "ecg",
+    "rsp",
+    "signal",
+]
