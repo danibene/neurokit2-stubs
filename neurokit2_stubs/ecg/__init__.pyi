@@ -1,0 +1,1 @@
+from neurokit2.ecg import ecg_process as ecg_process

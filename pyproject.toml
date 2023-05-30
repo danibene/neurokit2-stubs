@@ -47,6 +47,7 @@ livereload = {version = "^2.6.3", optional = true}
 pyreadline = {version = "^2.1", optional = true}
 mike = { version="^1.1.2", optional=true}
 numpy = "^1.24.3"
+neurokit2 = "^0.2.4"
 
 [tool.poetry.extras]
 test = [
@@ -58,7 +59,7 @@ test = [
     "pytest-cov"
     ]
 
-dev = ["tox", "pre-commit", "virtualenv", "pip", "twine", "toml"]
+dev = ["tox", "pre-commit", "virtualenv", "pip", "twine", "toml", "mkinit"]
 
 doc = [
     "mkdocs",

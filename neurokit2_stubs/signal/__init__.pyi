@@ -1,0 +1,1 @@
+from neurokit2.signal import signal_resample as signal_resample
