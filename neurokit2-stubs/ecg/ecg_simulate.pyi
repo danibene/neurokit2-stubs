@@ -14,5 +14,5 @@ def ecg_simulate(
     random_state: Union[None, int, np.random.RandomState, np.random.Generator] = None,
     random_state_distort: Union[str, None, int, np.random.RandomState, np.random.Generator] = "spawn",
     **kwargs,
-) -> Union[np.ndarray, pd.DataFrame]:
+) -> np.ndarray:
     ...
