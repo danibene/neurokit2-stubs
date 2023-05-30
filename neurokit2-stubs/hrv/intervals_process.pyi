@@ -9,5 +9,5 @@ def intervals_process(
     interpolation_rate: int = 100,
     detrend: Optional[str] = None,
     **kwargs
-) -> Tuple[np.ndarray, np.ndarray]:
+) -> Tuple[np.ndarray, np.ndarray, int]:
     ...
