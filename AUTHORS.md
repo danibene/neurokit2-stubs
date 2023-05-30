@@ -2,7 +2,7 @@
 
 ## Development Lead
 
-* Danielle Benesch <daniellerbenesch@gmail.com>
+* Danielle Benesch @danibene
 
 ## Contributors
 
