@@ -1,1 +1,1 @@
-from neurokit2.ecg import ecg_process as ecg_process
+from neurokit2.ecg.ecg_process import ecg_process as ecg_process
