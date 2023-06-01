@@ -6,7 +6,7 @@ def check_random_state(seed: Optional[Union[int, np.random.RandomState, np.rando
     ...
 
 
-def spawn_random_state(rng: Optional[Union[int, np.random.RandomState, np.random.Generator]] = None, n_children: int = 1) -> List[Union[np.random.RandomState, np.random.Generator]]:
+def spawn_random_state(rng: Optional[Union[int, np.random.RandomState, np.random.Generator]] = None, n_children: int = 1) -> List[np.random.RandomState]:
     ...
 
 
